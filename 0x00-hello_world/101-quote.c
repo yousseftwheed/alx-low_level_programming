@@ -6,9 +6,7 @@
 */
 int main(void)
 {
-char c[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-int i;
-for (i = 0; i != EOF; i++)
-putchar(c);
+fprintf(stderr, "and that piece of art is useful\" - Dora Korper, 2015-10-19\n");
+return (1);
 return (1);
 }
