@@ -1,21 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-*main -entry point
-*Description: data type size
-*Return: 0 (success)
+ * main - Entry point
+ *
+ * Description: using sizeof to print sizes
+ *
+ * Return: Always 0 (Succesful)
 */
+
 int main(void)
 {
-	char c;
-	int x;
-	long int y;
-	long long int z;
-	float f;
-printf("Size of a char: %zu byte(s)\n", sizeof(c));
-printf("Size of an int: %zu byte(s)\n", sizeof(x));
-printf("Size of a long int : %zu byte(s)\n", sizeof(y));
-printf("Size of a long long int: %zu byte(s)\n", sizeof(z));
-printf("Size of a float: %zu byte(s)\n", sizeof(f));
+printf("Size of a char: %d byte(s)\n", sizeof(char));
+printf("Size of an int: %d byte(s)\n", sizeof(int));
+printf("Size of a long int: %d byte(s)\n", sizeof(long int));
+printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
+printf("Size of a float: %d byte(s)\n", sizeof(float));
 return (0);
 }
