@@ -18,8 +18,8 @@ for(k = 0; k <= 9; k++)
 if (j < i && k < j)
 {
 putchar(k + 48);
-putchar(i + 48);
 putchar(j + 48);
+putchar(i + 48);
 if (i == 9 && k == 7 && j == 8)
 break;
 putchar(',');
