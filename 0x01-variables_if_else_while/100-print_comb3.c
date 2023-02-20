@@ -19,8 +19,8 @@ putchar(j + 48);
 if (i == 8)
 break;
 
-putchar(' ');
 putchar(',');
+putchar(' ');
 }
 
 }
