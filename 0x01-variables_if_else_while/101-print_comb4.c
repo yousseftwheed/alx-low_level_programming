@@ -8,19 +8,19 @@
 int main(void)
 {
 int i, j, k;
- 
- for(j = 0 ; j <= 9; j++)
+
+for (j = 0 ; j <= 9; j++)
 {
-for(i = 0; i <= 9; i++)
+for (i = 0; i <= 9; i++)
 {
-for(k = 0; k <= 9; k++)
+for (k = 0; k <= 9; k++)
 {
-if (j < i && k < j)
+if (k > i && i > j)
 {
-putchar(k + 48);
 putchar(j + 48);
 putchar(i + 48);
-if (i == 9 && k == 7 && j == 8)
+putchar(k + 48);
+if (j == 9 && i == 7 && k == 8)
 break;
 putchar(',');
 putchar(' ');
