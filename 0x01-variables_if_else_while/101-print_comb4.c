@@ -20,7 +20,7 @@ if (k > i && i > j)
 putchar(j + 48);
 putchar(i + 48);
 putchar(k + 48);
-if (j == 9 && i == 7 && k == 8)
+if (j == 7 && i == 8 && k == 9)
 break;
 putchar(',');
 putchar(' ');
