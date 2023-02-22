@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
-*print_alphabet -printing letters
+*print_alphabet_x10 -printing letters 10 times
 *Description: putchar task
 */
 
