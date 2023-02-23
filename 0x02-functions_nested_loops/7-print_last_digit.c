@@ -14,8 +14,8 @@ int n = x / 10;
 if (n < 0)
 {
 n = n *1;	
-_putchar(x + '0');
 }
+_putchar(n + '0');
 return (1);
 
 }
