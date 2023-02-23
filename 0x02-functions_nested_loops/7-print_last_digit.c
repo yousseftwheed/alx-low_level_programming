@@ -7,14 +7,15 @@
 *Return: last digit of number
 */
 int print_last_digit(int x)
-{
-if (x / 10 == 0)
-{
 
+{
+int n = x / 10;
+
+if (n < 0)
+{
+n = n *1;	
 _putchar(x + '0');
-return (1);
 }
-print_last_digit(x / 10);
 return (1);
 
 }
