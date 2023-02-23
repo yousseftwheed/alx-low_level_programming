@@ -11,7 +11,7 @@ int print_last_digit(int x)
 if (x / 10 == 0)
 {
 
-_putchar(x + 48);
+_putchar(x + '0');
 return (1);
 }
 print_last_digit(x / 10);
