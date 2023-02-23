@@ -1,30 +1,30 @@
 #include"main.h"
 
 /**
-*_isalpha -check lower case letters
-*Description: isalpha  task
-*@c: passed asscii number of the char
-*Return: 1 if letter & 0 is not letter
+*print_sign -sign of numbers checked here
+*Description: print numbers sign
+*@n: the number to check
+*Return: 1 if +ve & 0 if zero  & -1 in -ve
 */
 int print_sign(int n)
 {
 if (n > 0)
 {
 _putchar('+');
-return(1);
+return (1);
 }
 
 if (n < 0)
 {
 _putchar('-');
-return(-1);
+return (-1);
 }
 
 else
 {
 
 _putchar('0');
-return(0);
+return (0);
 }
 
 }
