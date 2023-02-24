@@ -1,6 +1,6 @@
 #include"main.h"
 /**
-*print_squares -print slash
+*print_square -print slash
 *Description: task 7
 *@size: number of #
 */
