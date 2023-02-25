@@ -1,4 +1,6 @@
 #include "main.h"
+#include <limits.h>
+#include<stdio.h>
 
 /**
  * main - check the code
@@ -8,7 +10,11 @@
 int main(void)
 {
     int r;
-
+    
+   
+    r = print_last_digit(INT_MIN);
+    printf("%d\n",r);
+    printf("%d\n",INT_MIN);
     print_last_digit(98);
     print_last_digit(0);
     r = print_last_digit(-1024);
