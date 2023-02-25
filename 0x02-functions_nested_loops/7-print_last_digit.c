@@ -13,21 +13,14 @@ int n;
 n = x;
 	if (n < 0)
 	{
-		n = n * -1;
-		_putchar(n % 10 + '0');
-		n = n % 10;
+		n = (n * -1) % 10;
+		_putchar(n + 48);
 	}
 	else
-		if (n == 0)
+		if (n  >= 0)
 		{
-			_putchar('0');
 			n = n % 10;
+			_putchar(n + 48);
 		}
-	else
-		if (n > 0)
-		{
-			_putchar(n % 10 + '0');
-			n = n % 10;
-		}
-return (n);
+	return (n);
 }
